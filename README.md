@@ -38,7 +38,7 @@
     
     [textField mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        @strongify(self);   //  __strong __typeof__(self) self = self_weak_;
+        @strongify(self); //  __strong __typeof__(self) self = self_weak_;
         make.size.mas_equalTo(CGSizeMake(180, 40));
         make.center.equalTo(self.view);
     }];
